@@ -10,27 +10,31 @@
         
     </head>
     <body>
-        <h1>Hello World</h1>
-        <hr>
-        <nav>
+        <header><h1>Hello World</h1>
+        
+        <nav aria-labelledby="primary-navigation"> 
             <ul>
                 <li><a href="#unorder">Unorderd List</a></li>
                 <li><a href="#decription">Desc</a></li>
-            </ul>
+            </ul></nav></header>
+        <main>
         <h2>Hello World</h2>
         <img src="img/image1.jpg" alt="Logo" title="peacock feather" width="200" height="300">
         <p>Ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolores modi corporis in non, molestiae deserunt repudiandae quidem veritatis nulla commodi. Maxime officia et reiciendis aliquid! Nisi, eos. Repudiandae, magni!</p>
-
+        
         <h3>Hello World</h3>
         <p>Ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>&nbsp; Explicabo dolores modi corporis in non, molestiae deserunt repudiandae quidem veritatis nulla commodi. <br> &nbsp;&nbsp; Maxime officia et reiciendis aliquid! Nisi, eos. Repudiandae, magni!</p>
 
         <hr>    
-        
+        <article>
+            <section>
         <h2>Hello World</h2>
         <p>Ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolores modi corporis in non, molestiae deserunt repudiandae quidem veritatis nulla commodi. Maxime officia et reiciendis aliquid! Nisi, eos. <em>Repudiandae, magni!</em></p>
-
+</section>
+<section>
         <h3>Hello World</h3>
         <p>Ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolores modi corporis in non, molestiae deserunt repudiandae quidem veritatis nulla commodi. Maxime officia et reiciendis aliquid! Nisi, eos. <strong>Repudiandae, magni!</strong></p>
+    <aside><details><summary>How many <mark>hours</mark> I study?</summary><p><time datetime="PT3H">3 hours</time> from <time datetime="08:00">8 am</time></p></details></aside> </section></article>
 
         <hr> 
         &lt;&copy; Shivam C &gt;
@@ -44,15 +48,15 @@
             <li>DC</li>
          </ol>
 
-         <section id="unorder">
+         <article id="unorder">
          <ul>   
             <li><p> Hello there </p> <figure> <img src="img/image2.jpg" alt="image 2" width="300" height="200" loading="lazy"> <figcaption>The Eye</figcaption> </figure></li>
             <li><p> Hello there 2</p></li>
             <li><p> Hello there 3</p></li>
          </ul>
-         </section>
+        </article>
 
-         <section id="decription"><dl>   
+         <article id="decription"><dl>   
             <dt>North pole</dt>
             <dd>Cold</dd>
 
@@ -61,9 +65,11 @@
 
             <dt>North pole</dt>
             <dd>Cold</dd>
-         </dl></section>
+         </dl></article>
          <figure> <img src="img/image3.jpg" alt="image 3" title="Forest with Trees" width="300" height="200" loading="lazy"> <figcaption> Forest Somewhere!</figcaption> </figure>
+         </main>
+         <footer>
          <p><a href="#">Back to Top</a></p>
-         &lt;&copy; <a href="about.html"> Shivam C</a> &gt;
+         <p>&lt;&copy; <a href="about.html"> Shivam C</a> &gt;</p>  </footer>
     </body>
 </html>
